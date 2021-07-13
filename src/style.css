@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contenedor404{
+    font-family: 'Otomanopee One', sans-serif;
+}
+#ihave{
+    font-size: 2.8rem;
+   
+}
+#ihave2{
+    font-size: 1rem;
+    line-height: 2rem;
+  
+}
+#contenedorPrincipal{
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+  @media only screen and (max-width: 768px) {
+    #contenedor2{
+       color: red;
+       
+       align-items: center;
+      }
+      #button404{
+          margin-bottom: 5px;
+      }
+      #contenedorPrincipal{
+          margin-top: 0px;
+          padding-top: 0px;
+      }
+  }
+#button404{
+
+    padding: 20px;
+    border: none;
+    background: rgb(53, 53, 53);
+    color: white;
+    margin-top: 10%;
+    
+
+}
+img{
+    width: 50%;
+    height: 70%;
+}
+#contenedor2{
+    display: flex;
+    flex-direction: column;
+}
+
